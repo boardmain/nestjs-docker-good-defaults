@@ -5,7 +5,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { LoggerModule } from 'nestjs-pino';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { configuration } from './config/configuration';
+import { configuration } from '../config/configuration';
 import { loggerModuleFactory, throttlerModuleFactory } from './app.module.factory';
 
 @Module({

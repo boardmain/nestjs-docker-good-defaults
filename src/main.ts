@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { ConfigService } from '@nestjs/config';
 import { Logger } from 'nestjs-pino';
-import { AppModule } from './app.module';
+import { AppModule } from './app/app.module';
 import helmet from 'helmet';
 import type { AppConfig } from './config/types/configuration.interface';
 

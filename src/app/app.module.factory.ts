@@ -1,5 +1,5 @@
 import { ConfigService } from '@nestjs/config';
-import type { AppConfig, PinoHttpConfig } from './config/types/configuration.interface';
+import type { AppConfig, PinoHttpConfig } from '../config/types/configuration.interface';
 import type { ThrottlerModuleOptions } from '@nestjs/throttler';
 
 /**

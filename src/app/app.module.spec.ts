@@ -3,7 +3,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { AppModule } from './app.module';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { configuration } from './config/configuration';
+import { configuration } from '../config/configuration';
 import { loggerModuleFactory, throttlerModuleFactory } from './app.module.factory';
 
 describe('AppModule', () => {
